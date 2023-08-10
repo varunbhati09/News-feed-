@@ -1,7 +1,6 @@
-// src/components/HomeFeed.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './styles.css'; // Import the CSS file with styles
+import './styles.css'; 
 
 function HomeFeed() {
   const [articles, setArticles] = useState([]);
@@ -33,4 +32,3 @@ function HomeFeed() {
 
 export default HomeFeed;
 
-// Other components are similar with class names added, you can apply the same style to them.

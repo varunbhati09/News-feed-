@@ -1,13 +1,10 @@
-// src/components/Login.js
 import React, { useState } from 'react';
-import './styles.css'; // Import the CSS file with styles
-
+import './styles.css'; 
 function Login({ onLogin }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Simulate login
     onLogin({ username, password });
   };
 

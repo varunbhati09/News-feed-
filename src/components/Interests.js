@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import './styles.css'; // Import the CSS file with styles
-
-const interestsList = ['technology', 'science', 'politics', 'sports']; // Add more interests as needed
+import './styles.css'; 
+const interestsList = ['technology', 'science', 'politics', 'sports']; 
 
 function Interests({ onSelectInterests }) {
   const [selectedInterests, setSelectedInterests] = useState([]);

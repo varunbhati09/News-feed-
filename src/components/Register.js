@@ -1,13 +1,10 @@
-// src/components/Register.js
 import React, { useState } from 'react';
-import './styles.css'; // Import the CSS file with styles
-
+import './styles.css'; 
 function Register({ onRegister }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
   const handleRegister = () => {
-    // Simulate registration
     onRegister({ username, password });
   };
 

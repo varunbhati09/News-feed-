@@ -1,7 +1,6 @@
-// src/components/NewsFeed.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './styles.css'; // Import the CSS file with styles
+import './styles.css'; 
 
 function NewsFeed() {
   const [articles, setArticles] = useState([]);

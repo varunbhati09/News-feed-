@@ -17,7 +17,6 @@ function App() {
 
   const handleUpdateInterests = (newInterests) => {
     if (user) {
-      // Update user's interests and save to backend (replace this with actual API call)
       const updatedUser = { ...user, selectedInterests: newInterests };
       setUser(updatedUser);
     }
